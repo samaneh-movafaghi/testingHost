@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+            crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    
+    </head>
+    <body>
+        <h1 class="h1">
+            this is a test
+        </h1>
+        <button id="btn" class="btn btn-primary">
+            button
+        </button>
+        <script>
+            function tested(){
+                let text=document.querySelector('h1');
+                text.innerHTML="test is truely done";
+                
+            }
+            let button=document.querySelector("#btn");
+            button.addEventListener("click",tested);
+        </script>
+    </body>
+</html>
